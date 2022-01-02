@@ -3,7 +3,7 @@ class Bullet extends Floater{
     myCenterX=theShip.getX();
     myCenterY=theShip.getY();
     myPointDirection = theShip.getPointDirection();
-    accelerate(4);
+    accelerate(3);
   }
   public void show(){
     fill(51,200,10);
